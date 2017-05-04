@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040C8ADB1E92803000B4B7C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8ADA1E92803000B4B7C1 /* main.m */; };
+		040C8ADE1E92803000B4B7C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8ADD1E92803000B4B7C1 /* AppDelegate.m */; };
+		040C8AE11E92803000B4B7C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8AE01E92803000B4B7C1 /* ViewController.m */; };
+		040C8AE41E92803000B4B7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C8AE21E92803000B4B7C1 /* Main.storyboard */; };
+		040C8AE61E92803000B4B7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C8AE51E92803000B4B7C1 /* Assets.xcassets */; };
+		040C8AE91E92803000B4B7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C8AE71E92803000B4B7C1 /* LaunchScreen.storyboard */; };
+		040C8AF41E92803000B4B7C1 /* HYTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8AF31E92803000B4B7C1 /* HYTextFieldTests.m */; };
+		040C8AFF1E92803000B4B7C1 /* HYTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8AFE1E92803000B4B7C1 /* HYTextFieldUITests.m */; };
+		040C8B111E92860600B4B7C1 /* HYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8B101E92860600B4B7C1 /* HYTextField.m */; };
+		041CBA461EBB758100E1DD85 /* UITextField+Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CBA451EBB758100E1DD85 /* UITextField+Edit.m */; };
+		0454194C1EA36647005C1944 /* UIViewController+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040C8AF01E92803000B4B7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040C8ACE1E92803000B4B7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040C8AD51E92803000B4B7C1;
+			remoteInfo = HYTextField;
+		};
+		040C8AFB1E92803000B4B7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040C8ACE1E92803000B4B7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040C8AD51E92803000B4B7C1;
+			remoteInfo = HYTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040C8AD61E92803000B4B7C1 /* HYTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040C8ADA1E92803000B4B7C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040C8ADC1E92803000B4B7C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040C8ADD1E92803000B4B7C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040C8ADF1E92803000B4B7C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040C8AE01E92803000B4B7C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040C8AE31E92803000B4B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040C8AE51E92803000B4B7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040C8AE81E92803000B4B7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040C8AEA1E92803000B4B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C8AEF1E92803000B4B7C1 /* HYTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040C8AF31E92803000B4B7C1 /* HYTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTextFieldTests.m; sourceTree = "<group>"; };
+		040C8AF51E92803000B4B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C8AFA1E92803000B4B7C1 /* HYTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040C8AFE1E92803000B4B7C1 /* HYTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTextFieldUITests.m; sourceTree = "<group>"; };
+		040C8B001E92803000B4B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C8B0F1E92860600B4B7C1 /* HYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTextField.h; sourceTree = "<group>"; };
+		040C8B101E92860600B4B7C1 /* HYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTextField.m; sourceTree = "<group>"; };
+		041CBA441EBB758100E1DD85 /* UITextField+Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Edit.h"; sourceTree = "<group>"; };
+		041CBA451EBB758100E1DD85 /* UITextField+Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Edit.m"; sourceTree = "<group>"; };
+		0454194A1EA36647005C1944 /* UIViewController+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AssociatedObjects.h"; sourceTree = "<group>"; };
+		0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AssociatedObjects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040C8AD31E92803000B4B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AEC1E92803000B4B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AF71E92803000B4B7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040C8ACD1E92803000B4B7C1 = {
+			isa = PBXGroup;
+			children = (
+				040C8AD81E92803000B4B7C1 /* HYTextField */,
+				040C8AF21E92803000B4B7C1 /* HYTextFieldTests */,
+				040C8AFD1E92803000B4B7C1 /* HYTextFieldUITests */,
+				040C8AD71E92803000B4B7C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040C8AD71E92803000B4B7C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040C8AD61E92803000B4B7C1 /* HYTextField.app */,
+				040C8AEF1E92803000B4B7C1 /* HYTextFieldTests.xctest */,
+				040C8AFA1E92803000B4B7C1 /* HYTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040C8AD81E92803000B4B7C1 /* HYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				040C8ADC1E92803000B4B7C1 /* AppDelegate.h */,
+				040C8ADD1E92803000B4B7C1 /* AppDelegate.m */,
+				040C8B0F1E92860600B4B7C1 /* HYTextField.h */,
+				040C8B101E92860600B4B7C1 /* HYTextField.m */,
+				041CBA441EBB758100E1DD85 /* UITextField+Edit.h */,
+				041CBA451EBB758100E1DD85 /* UITextField+Edit.m */,
+				040C8ADF1E92803000B4B7C1 /* ViewController.h */,
+				040C8AE01E92803000B4B7C1 /* ViewController.m */,
+				0454194A1EA36647005C1944 /* UIViewController+AssociatedObjects.h */,
+				0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */,
+				040C8AE21E92803000B4B7C1 /* Main.storyboard */,
+				040C8AE51E92803000B4B7C1 /* Assets.xcassets */,
+				040C8AE71E92803000B4B7C1 /* LaunchScreen.storyboard */,
+				040C8AEA1E92803000B4B7C1 /* Info.plist */,
+				040C8AD91E92803000B4B7C1 /* Supporting Files */,
+			);
+			path = HYTextField;
+			sourceTree = "<group>";
+		};
+		040C8AD91E92803000B4B7C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040C8ADA1E92803000B4B7C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040C8AF21E92803000B4B7C1 /* HYTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				040C8AF31E92803000B4B7C1 /* HYTextFieldTests.m */,
+				040C8AF51E92803000B4B7C1 /* Info.plist */,
+			);
+			path = HYTextFieldTests;
+			sourceTree = "<group>";
+		};
+		040C8AFD1E92803000B4B7C1 /* HYTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040C8AFE1E92803000B4B7C1 /* HYTextFieldUITests.m */,
+				040C8B001E92803000B4B7C1 /* Info.plist */,
+			);
+			path = HYTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040C8AD51E92803000B4B7C1 /* HYTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040C8B031E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextField" */;
+			buildPhases = (
+				040C8AD21E92803000B4B7C1 /* Sources */,
+				040C8AD31E92803000B4B7C1 /* Frameworks */,
+				040C8AD41E92803000B4B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYTextField;
+			productName = HYTextField;
+			productReference = 040C8AD61E92803000B4B7C1 /* HYTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040C8AEE1E92803000B4B7C1 /* HYTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040C8B061E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextFieldTests" */;
+			buildPhases = (
+				040C8AEB1E92803000B4B7C1 /* Sources */,
+				040C8AEC1E92803000B4B7C1 /* Frameworks */,
+				040C8AED1E92803000B4B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040C8AF11E92803000B4B7C1 /* PBXTargetDependency */,
+			);
+			name = HYTextFieldTests;
+			productName = HYTextFieldTests;
+			productReference = 040C8AEF1E92803000B4B7C1 /* HYTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040C8AF91E92803000B4B7C1 /* HYTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040C8B091E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextFieldUITests" */;
+			buildPhases = (
+				040C8AF61E92803000B4B7C1 /* Sources */,
+				040C8AF71E92803000B4B7C1 /* Frameworks */,
+				040C8AF81E92803000B4B7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040C8AFC1E92803000B4B7C1 /* PBXTargetDependency */,
+			);
+			name = HYTextFieldUITests;
+			productName = HYTextFieldUITests;
+			productReference = 040C8AFA1E92803000B4B7C1 /* HYTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040C8ACE1E92803000B4B7C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hoo;
+				TargetAttributes = {
+					040C8AD51E92803000B4B7C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5C5VZ6884A;
+						ProvisioningStyle = Automatic;
+					};
+					040C8AEE1E92803000B4B7C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040C8AD51E92803000B4B7C1;
+					};
+					040C8AF91E92803000B4B7C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040C8AD51E92803000B4B7C1;
+					};
+				};
+			};
+			buildConfigurationList = 040C8AD11E92803000B4B7C1 /* Build configuration list for PBXProject "HYTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040C8ACD1E92803000B4B7C1;
+			productRefGroup = 040C8AD71E92803000B4B7C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040C8AD51E92803000B4B7C1 /* HYTextField */,
+				040C8AEE1E92803000B4B7C1 /* HYTextFieldTests */,
+				040C8AF91E92803000B4B7C1 /* HYTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040C8AD41E92803000B4B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C8AE91E92803000B4B7C1 /* LaunchScreen.storyboard in Resources */,
+				040C8AE61E92803000B4B7C1 /* Assets.xcassets in Resources */,
+				040C8AE41E92803000B4B7C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AED1E92803000B4B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AF81E92803000B4B7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040C8AD21E92803000B4B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C8AE11E92803000B4B7C1 /* ViewController.m in Sources */,
+				0454194C1EA36647005C1944 /* UIViewController+AssociatedObjects.m in Sources */,
+				040C8ADE1E92803000B4B7C1 /* AppDelegate.m in Sources */,
+				040C8B111E92860600B4B7C1 /* HYTextField.m in Sources */,
+				040C8ADB1E92803000B4B7C1 /* main.m in Sources */,
+				041CBA461EBB758100E1DD85 /* UITextField+Edit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AEB1E92803000B4B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C8AF41E92803000B4B7C1 /* HYTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040C8AF61E92803000B4B7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C8AFF1E92803000B4B7C1 /* HYTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040C8AF11E92803000B4B7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040C8AD51E92803000B4B7C1 /* HYTextField */;
+			targetProxy = 040C8AF01E92803000B4B7C1 /* PBXContainerItemProxy */;
+		};
+		040C8AFC1E92803000B4B7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040C8AD51E92803000B4B7C1 /* HYTextField */;
+			targetProxy = 040C8AFB1E92803000B4B7C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040C8AE21E92803000B4B7C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040C8AE31E92803000B4B7C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040C8AE71E92803000B4B7C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040C8AE81E92803000B4B7C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040C8B011E92803000B4B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040C8B021E92803000B4B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040C8B041E92803000B4B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C5VZ6884A;
+				INFOPLIST_FILE = HYTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040C8B051E92803000B4B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C5VZ6884A;
+				INFOPLIST_FILE = HYTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040C8B071E92803000B4B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYTextField.app/HYTextField";
+			};
+			name = Debug;
+		};
+		040C8B081E92803000B4B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYTextField.app/HYTextField";
+			};
+			name = Release;
+		};
+		040C8B0A1E92803000B4B7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYTextField;
+			};
+			name = Debug;
+		};
+		040C8B0B1E92803000B4B7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040C8AD11E92803000B4B7C1 /* Build configuration list for PBXProject "HYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040C8B011E92803000B4B7C1 /* Debug */,
+				040C8B021E92803000B4B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040C8B031E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040C8B041E92803000B4B7C1 /* Debug */,
+				040C8B051E92803000B4B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040C8B061E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040C8B071E92803000B4B7C1 /* Debug */,
+				040C8B081E92803000B4B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040C8B091E92803000B4B7C1 /* Build configuration list for PBXNativeTarget "HYTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040C8B0A1E92803000B4B7C1 /* Debug */,
+				040C8B0B1E92803000B4B7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040C8ACE1E92803000B4B7C1 /* Project object */;
+}
