@@ -15,9 +15,7 @@
 		040C8AE91E92803000B4B7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C8AE71E92803000B4B7C1 /* LaunchScreen.storyboard */; };
 		040C8AF41E92803000B4B7C1 /* HYTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8AF31E92803000B4B7C1 /* HYTextFieldTests.m */; };
 		040C8AFF1E92803000B4B7C1 /* HYTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8AFE1E92803000B4B7C1 /* HYTextFieldUITests.m */; };
-		040C8B111E92860600B4B7C1 /* HYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C8B101E92860600B4B7C1 /* HYTextField.m */; };
 		041CBA461EBB758100E1DD85 /* UITextField+Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CBA451EBB758100E1DD85 /* UITextField+Edit.m */; };
-		0454194C1EA36647005C1944 /* UIViewController+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +52,8 @@
 		040C8AFA1E92803000B4B7C1 /* HYTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C8AFE1E92803000B4B7C1 /* HYTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTextFieldUITests.m; sourceTree = "<group>"; };
 		040C8B001E92803000B4B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040C8B0F1E92860600B4B7C1 /* HYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTextField.h; sourceTree = "<group>"; };
-		040C8B101E92860600B4B7C1 /* HYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTextField.m; sourceTree = "<group>"; };
 		041CBA441EBB758100E1DD85 /* UITextField+Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Edit.h"; sourceTree = "<group>"; };
 		041CBA451EBB758100E1DD85 /* UITextField+Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Edit.m"; sourceTree = "<group>"; };
-		0454194A1EA36647005C1944 /* UIViewController+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AssociatedObjects.h"; sourceTree = "<group>"; };
-		0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AssociatedObjects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,14 +106,10 @@
 			children = (
 				040C8ADC1E92803000B4B7C1 /* AppDelegate.h */,
 				040C8ADD1E92803000B4B7C1 /* AppDelegate.m */,
-				040C8B0F1E92860600B4B7C1 /* HYTextField.h */,
-				040C8B101E92860600B4B7C1 /* HYTextField.m */,
 				041CBA441EBB758100E1DD85 /* UITextField+Edit.h */,
 				041CBA451EBB758100E1DD85 /* UITextField+Edit.m */,
 				040C8ADF1E92803000B4B7C1 /* ViewController.h */,
 				040C8AE01E92803000B4B7C1 /* ViewController.m */,
-				0454194A1EA36647005C1944 /* UIViewController+AssociatedObjects.h */,
-				0454194B1EA36647005C1944 /* UIViewController+AssociatedObjects.m */,
 				040C8AE21E92803000B4B7C1 /* Main.storyboard */,
 				040C8AE51E92803000B4B7C1 /* Assets.xcassets */,
 				040C8AE71E92803000B4B7C1 /* LaunchScreen.storyboard */,
@@ -290,9 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040C8AE11E92803000B4B7C1 /* ViewController.m in Sources */,
-				0454194C1EA36647005C1944 /* UIViewController+AssociatedObjects.m in Sources */,
 				040C8ADE1E92803000B4B7C1 /* AppDelegate.m in Sources */,
-				040C8B111E92860600B4B7C1 /* HYTextField.m in Sources */,
 				040C8ADB1E92803000B4B7C1 /* main.m in Sources */,
 				041CBA461EBB758100E1DD85 /* UITextField+Edit.m in Sources */,
 			);
@@ -445,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5C5VZ6884A;
 				INFOPLIST_FILE = HYTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5C5VZ6884A;
 				INFOPLIST_FILE = HYTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hawley.HYTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";

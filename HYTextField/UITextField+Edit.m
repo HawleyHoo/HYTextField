@@ -36,14 +36,51 @@ static inline CGFloat SCREENHEIGHT() {
     }
     return self;
 }
-static const char HYTextFieldPasteKey = '\0';
+static const char HYAllowedPasteKey = '\0';
 - (void)setAllowedPaste:(BOOL)allowedPaste {
-    objc_setAssociatedObject(self, @selector(isAllowedPaste), [NSNumber numberWithBool:allowedPaste], OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, &HYAllowedPasteKey, [NSNumber numberWithBool:allowedPaste], OBJC_ASSOCIATION_ASSIGN);
+}
+- (BOOL)isAllowedPaste {
+    return [(NSNumber *)objc_getAssociatedObject(self, &HYAllowedPasteKey) boolValue];
 }
 
-- (BOOL)isAllowedPaste {
-    return objc_getAssociatedObject(self, @selector(isAllowedPaste));
+static const char HYAllowedSelectKey = '\0';
+- (void)setAllowedSelect:(BOOL)allowedSelect {
+    objc_setAssociatedObject(self, &HYAllowedSelectKey, [NSNumber numberWithBool:allowedSelect], OBJC_ASSOCIATION_ASSIGN);
 }
+
+- (BOOL)isAllowedSelect {
+    return [(NSNumber *)objc_getAssociatedObject(self, &HYAllowedSelectKey) boolValue];
+}
+
+static const char HYAllowedSelectAllKey = '\0';
+- (void)setAllowedSelectAll:(BOOL)allowedSelectAll {
+    objc_setAssociatedObject(self, &HYAllowedSelectAllKey, [NSNumber numberWithBool:allowedSelectAll], OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (BOOL)isAllowedSelectAll {
+    return [(NSNumber *)objc_getAssociatedObject(self, &HYAllowedSelectAllKey) boolValue];
+}
+
+static const char HYAllowedCopyKey = '\0';
+- (void)setAllowedCopy:(BOOL)allowedCopy {
+    objc_setAssociatedObject(self, &HYAllowedCopyKey, [NSNumber numberWithBool:allowedCopy], OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (BOOL)isAllowedCopy {
+    return [(NSNumber *)objc_getAssociatedObject(self, &HYAllowedCopyKey) boolValue];
+}
+
+static const char HYAllowedCutKey = '\0';
+- (void)setAllowedCut:(BOOL)allowedCut {
+    objc_setAssociatedObject(self, &HYAllowedCutKey, [NSNumber numberWithBool:allowedCut], OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (BOOL)isAllowedCut {
+    return [(NSNumber *)objc_getAssociatedObject(self, &HYAllowedCutKey) boolValue];
+}
+
+
 
 
 CGSize CGSizeMakeForCustomInputTextField() {
@@ -76,7 +113,6 @@ CGRect CGRectMakeForCustomInputTextFieldWithOriginY(CGFloat y) {
 
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
-    
     //    [UIMenuController sharedMenuController].menuVisible = NO;
     if (action == @selector(paste:)) {//是否禁止粘贴
         return self.isAllowedPaste;
